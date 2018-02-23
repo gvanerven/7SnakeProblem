@@ -1,6 +1,6 @@
 # 7SnakeProblem
 Project to explore the 7 Snake Problem
 
-* notebooks directory - Solution Exploration and Analysis - (issue) Sum is not correct
+* notebooks directory - Solution Exploration and Analysis
 
-* script directory - Script to run over an input csv matrix file
+* script directory - Script to run over an input csv matrix file (still missing the script)
