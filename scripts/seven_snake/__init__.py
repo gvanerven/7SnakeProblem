@@ -39,16 +39,10 @@ def gen_graph(board):
 def find_distinct_set(list_sets, new_set):
     """
     Verify if an element in the new set is in any other set os the list_sets
-    """
-    def happens_intersection(set1, set2):
-        for element in set1: 
-            if element in set2:
-                return True
-        return False
-    # End of internal function happens_intersection
-    
+    """    
     for elem_set in list_sets:
-        if not happens_intersection(elem_set, new_set):
+        #Set & operator Suggested by Wagner Alberto
+        if not elem_set & new_set:
             return elem_set
     return None
 
